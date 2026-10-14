@@ -219,6 +219,25 @@ and an in-app **"What's new"** changelog shown after each update.
 - **Smart alarm.** Arms the strap's own **firmware** alarm to buzz at your wake
   time (still fires if the Mac is asleep or NOOP is closed), with an optional
   light-sleep wake window when the Mac stays awake and connected.
+- **One wake time.** The Alarms screen has a single "Wake time" that drives both
+  the strap alarm and the evening wind-down reminder, with optional per-day
+  overrides that move both together, so the two can never disagree.
+- **Snooze** *(off by default)*. After the strap buzzes it re-arms a few minutes
+  later (3, 4, 5 or 10 min, up to 3 repeats). A double-tap on the strap or opening
+  the app stops it. Needs the strap connected to the phone when it fires; out of
+  range, it buzzes once.
+- **"Why did it buzz?" notifications** *(iOS, off by default)*. A silent
+  notification names the automation that buzzed the strap (HR-zone coaching,
+  inactivity, stress check-in, double-tap, alarm snooze). Buzzes you start
+  yourself (breathing, timers, workouts) are not included.
+
+### Strap sync
+
+The Devices screen shows when the strap last synced. Once a sync has been timed it
+also shows a rough estimate such as "about 3 hours of new data should be waiting,
+so the next sync should take about 40 seconds". The estimate scales the time since
+the last sync by how fast your previous syncs ran. The strap never reports how
+much it holds, so it is an estimate and says "about".
 
 ---
 
@@ -239,7 +258,7 @@ import required.
 | Platform | Status |
 |---|---|
 | **macOS** | ✅ Full app (`Strand/`, SwiftUI, macOS 13+). Pairs over BLE, offloads the strap's history, and scores recovery / strain / sleep on-device. The complete feature set above runs here. |
-| **Android** | ✅ Full app (`android/`, Jetpack Compose, Android 8+). Pairs over BLE, persists and scores on-device, and imports WHOOP / Apple Health / Health Connect. Grab the APK from [Releases](https://github.com/ryanbr/noop/releases). |
+| **Android** | Not part of this fork: the `android/` sources were removed here. The upstream project still ships an Android app, so the snooze, wake-time and sync-estimate changes above exist on Apple platforms only. |
 | **iOS** | 📲 **Direct download**: an unsigned `.ipa` you sideload with AltStore/SideStore — it signs on your iPhone with your *own* free Apple ID, so there's an anonymous install path with no App Store / developer account (see [docs/IOS.md](docs/IOS.md)). Also still builds from source in Xcode. Shares the cross-platform Swift packages, so scoring matches macOS. Newer and less battle-tested than macOS/Android — live BLE on a real iPhone is still being validated; Apple Health + Live Activity widgets can be limited under a free signing identity. |
 
 ### Strap support
