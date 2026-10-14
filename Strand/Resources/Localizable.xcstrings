@@ -27021,6 +27021,7 @@
       }
     },
     "A calm nudge %lldh %lldm before your usual wake time." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -27074,6 +27075,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在你通常的起床時間前 %1$lld 小時 %2$lld 分鐘的一個平靜提醒。"
+          }
+        }
+      }
+    },
+    "A calm nudge %lldh %lldm before your wake time." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "A calm nudge %1$lldh %2$lldm before your wake time."
           }
         }
       }
@@ -27968,6 +27979,9 @@
           }
         }
       }
+    },
+    "A lie-in at the weekend, say. A day you set here moves both the strap alarm and the evening reminder." : {
+
     },
     "A local notification with today's readiness + training plan, generated on-device each morning." : {
       "localizations" : {
@@ -53978,6 +53992,9 @@
         }
       }
     },
+    "Buzzes at your wake time, %@, on the days below." : {
+
+    },
     "Buzzes your wrist" : {
       "localizations" : {
         "de" : {
@@ -74190,6 +74207,7 @@
       }
     },
     "Days you leave alone keep your strap alarm at %@, and time the reminder from %@." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -74248,6 +74266,7 @@
       }
     },
     "Days you leave alone use the usual wake time above." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -74304,6 +74323,12 @@
           }
         }
       }
+    },
+    "Days you leave alone use the wake time above, %@." : {
+
+    },
+    "Days you leave alone use the wake time above." : {
+
     },
     "Daytime sleep" : {
       "localizations" : {
@@ -77515,7 +77540,11 @@
         }
       }
     },
+    "Different time on some days" : {
+
+    },
     "Different wake time per day" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -156703,6 +156732,9 @@
         }
       }
     },
+    "One wake time. Your strap alarm and the evening reminder both follow it." : {
+
+    },
     "Only %lld%% of this night's window has stage data. The stage totals cover only that part of the night." : {
       "localizations" : {
         "de" : {
@@ -191914,6 +191946,7 @@
       }
     },
     "Set a wake time for specific days (a lie-in at the weekend, say). These times move your strap alarm AND the evening reminder on those days." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -200462,6 +200495,7 @@
       }
     },
     "Some days have a time of their own, set under the evening reminder below. Next buzz %@." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -200518,6 +200552,9 @@
           }
         }
       }
+    },
+    "Some days use their own time. Next buzz %@." : {
+
     },
     "Some occasional extra or skipped beats" : {
       "extractionState" : "stale",
@@ -206971,6 +207008,7 @@
       }
     },
     "Strap alarm wake time" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -217698,6 +217736,7 @@
 
     },
     "The nudge fires %lldh %lldm before this." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -218175,6 +218214,9 @@
         }
       },
       "shouldTranslate" : false
+    },
+    "The strap alarm buzzes at this time and the evening reminder is timed from it. Turn either on below." : {
+
     },
     "The strap alarm is a silent buzz, not a sound" : {
       "localizations" : {
@@ -222813,6 +222855,7 @@
 
     },
     "This time does not wake you. It only decides when the evening reminder fires." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -228168,6 +228211,7 @@
       }
     },
     "Turn on the wind-down reminder below to land at your usual wake time rested." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -228224,6 +228268,9 @@
           }
         }
       }
+    },
+    "Turn on the wind-down reminder below to land at your wake time rested." : {
+
     },
     "Turning deep data back off needs an iPhone or Android. A Mac can't form the encrypted bond a 5/MG requires." : {
       "extractionState" : "stale",
@@ -231350,6 +231397,7 @@
 
     },
     "Usual wake" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -234168,7 +234216,6 @@
 
     },
     "Wake" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -234227,6 +234274,7 @@
       }
     },
     "Wake at" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -234289,6 +234337,9 @@
           }
         }
       }
+    },
+    "Wake me at" : {
+
     },
     "Wake me with a strap buzz" : {
       "localizations" : {
@@ -234407,7 +234458,6 @@
       }
     },
     "Wake time" : {
-      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -246082,7 +246132,18 @@
         }
       }
     },
+    "You'll be reminded around %@, %lldh %lldm before your wake time." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "You'll be reminded around %1$@, %2$lldh %3$lldm before your wake time."
+          }
+        }
+      }
+    },
     "You'll be reminded around %@." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -250282,6 +250343,7 @@
       }
     },
     "Your strap alarm is what wakes you, next on %@." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -250995,6 +251057,7 @@
       }
     },
     "Your strap wake-alarm and the evening wind-down reminder, in one place." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -251239,6 +251302,7 @@
       }
     },
     "Your usual wake time" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {

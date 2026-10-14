@@ -8,6 +8,12 @@
 
 <p align="center"><sub>Now in the all-new <b>Liquid Metal</b> design: one living look across iPhone and Mac.</sub></p>
 
+> **About this fork.** This is an iOS-focused fork of [NOOP](https://github.com/ryanbr/noop), published at
+> [Octavian-Mihai/nhoop-ios](https://github.com/Octavian-Mihai/nhoop-ios). The Android app and the
+> Python/Android-parity tooling have been removed; the macOS app stays because the iOS app shares its
+> code. Release badges and download links below still point at the upstream project. Upstream credits and
+> the license are unchanged (see [Attribution](#attribution) and [License](#license)).
+
 <p align="center">
   <img alt="Platforms" src="https://img.shields.io/badge/platforms-macOS%20%C2%B7%20iOS-E8B84B?style=flat-square">
   <img alt="Local first" src="https://img.shields.io/badge/local-first-E8B84B?style=flat-square">
@@ -394,7 +400,7 @@ Packages/
   StrandImport/          WHOOP CSV + Apple Health importers
   StrandDesign/          SwiftUI design system (palette, components, charts)
   NoopLocalAccess/       local read-only data-access layer (on-device, no network)
-Tools/Backfill/          CLI tool for backfilling decoded data
+Tools/                   iOS sideload helper scripts
 Fixtures/                sample WHOOP export for tests
 ```
 
